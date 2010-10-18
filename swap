@@ -1,0 +1,5 @@
+{ "command" : "free | awk '/Swap:/ {print $2,$3,$4}'"
+, "labels_string" : "total, used, free"
+, "name" : "swap"
+, "primary" : 1 }
+

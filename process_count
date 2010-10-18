@@ -1,0 +1,3 @@
+{ "command" : "ps aux | wc -l"
+, "labels_string": "# processes"
+, "name" : "# of running processes" }

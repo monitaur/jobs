@@ -1,0 +1,4 @@
+{ "command" : "mysql -u root -e 'show innodb status \\G' | awk '/inserts\\\/s/ { print $1,$3,$5,$7}'"
+, "labels_string" : "inserts/s, updates/s, deletes/s, reads/s"
+, "name" : "mysql queries/second"
+, "primary" : 3 }

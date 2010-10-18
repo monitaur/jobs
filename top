@@ -1,0 +1,2 @@
+{ "command" : "top -n1 -b"
+, "name" : "top" }

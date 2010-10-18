@@ -1,0 +1,4 @@
+{ "command" : "cut -d' ' -f1,2,3 < /proc/loadavg"
+, "labels_string" : "load1, load5, load15"
+, "name" : "load"
+, "primary" : 1 }

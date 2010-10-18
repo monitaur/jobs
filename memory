@@ -1,0 +1,5 @@
+{ "command" : "free | awk '/Mem:/ {print $2,$3,$4,$5,$6,$7}'"
+, "labels_string" : "total, used, free, shared, buffers, cached"
+, "name" : "memory"
+, "primary" : 2 }
+

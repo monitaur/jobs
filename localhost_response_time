@@ -1,0 +1,3 @@
+{ "command" : "curl -s -o /dev/null -w '%{time_starttransfer} %{time_pretransfer}' http://localhost/ | awk '{print $1-$2}'"
+, "labels_string" : "seconds"
+, "name" : "http://localhost/ response time" }

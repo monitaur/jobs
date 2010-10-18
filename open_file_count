@@ -1,0 +1,3 @@
+{ "command" : "lsof | wc -l | awk '{print $1-1}'"
+, "labels_string" : "# of open files"
+, "name" : "# of open files" }

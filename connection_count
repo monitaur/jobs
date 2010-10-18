@@ -1,0 +1,3 @@
+{ "command" : "netstat -A inet | wc -l | awk '{print $1-2}'"
+, "labels_string" : "# of network connections"
+, "name" : "# of network connections" }

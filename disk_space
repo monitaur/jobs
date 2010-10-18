@@ -1,0 +1,4 @@
+{ "command": "df -k | awk 'NR==2{print $3,$4,$5}'"
+, "labels_string" : "Used, Available, % Used"
+, "name" : "disk space"
+, "primary" : 3 }
